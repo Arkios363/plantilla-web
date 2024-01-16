@@ -1,0 +1,7 @@
+.image-full {
+    transition: transform 1s ease;
+  }
+  
+  .image-full:hover {
+    transform: rotate(360deg); 
+  }
