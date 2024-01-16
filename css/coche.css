@@ -1,0 +1,13 @@
+#banner img {
+    transform: scale(0.5);
+    animation: moverCoche 6s linear infinite;
+  }
+  
+  @keyframes moverCoche {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(310%);
+    }
+  }
