@@ -1,7 +1,8 @@
-.image-full {
-    transition: transform 1s ease;
-  }
-  
-  .image-full:hover {
-    transform: rotate(360deg); 
-  }
+.boxA .image-full,.boxB .image-full {
+
+  transition: transform 0.5s ease; 
+}
+
+.boxA:hover .image-full,.boxB:hover .image-full {
+  transform: rotate(360deg); 
+}
