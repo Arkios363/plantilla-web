@@ -1,25 +1,25 @@
 /* Animacion en las imagenes */
-.boxA .image-full,.boxB .image-full {
+.image-full {
 
   transition: transform 1s ease; 
 }
-.boxA:hover .image-full,.boxB:hover .image-full {
+.image-full:hover {
   transform: rotate(360deg); 
 }
 
 /* Animacion el texto */
-.boxA, .boxB {
+.boxA, .boxB, .boxC {
  
   transition: color 0.5s ease; 
 }
-.boxA:hover, .boxB:hover {
+.boxA:hover, .boxB:hover, .boxC:hover {
   color: red; 
 }
 
 /* Animacion color en boton */
-.boxA .button, .boxb .button{
+.button{
     transition: color 0.5s ease;
 }
-.boxA .button:hover , .boxB .button:hover {
+.button:hover{
     background-color: red; 
   }
